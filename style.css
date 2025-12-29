@@ -1,0 +1,185 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic Layout */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    height: 100%;
+    
+}
+
+/* Header Section */
+header {
+    background-color: #4b93d3;
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header .logo h1 {
+    color: white;
+    font-size: 24px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#about-us {
+    display: none;
+}
+#about-us.active {
+    display: block;
+}
+
+#home.close {
+    display: none;
+}
+
+/* Hero Section */
+.hero {
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background-image: url("cool_back.jpg");
+    background-size: cover;
+    border: none;
+    opacity: 0.8;
+    background: linear-gradient(to bottom, #003366, #a8abb1);
+}
+
+.hero .hero-content p {
+    position: relative;
+    bottom: 90px;
+}
+.hero .hero-content h2 {
+    font-size: 48px;
+    margin-bottom: 100px;
+}
+
+.hero .cta-btn {
+    background-color: #ff7f50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 5px;
+    position: relative;
+    bottom: 50px;
+}
+
+.hero .cta-btn:hover {
+    background-color: #ff5e3a;
+}
+
+/* Analysis Section */
+.analysis {
+    padding: 50px 0;
+    text-align: center;
+    background: linear-gradient(to bottom, #6885a0f3, #b3b4b6);
+}
+
+.tabs {
+    margin-bottom: 30px;
+}
+
+.tab-btn {
+    background-color: #e0e0e052;
+    padding: 15px 30px;
+    margin: 0 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.tab-btn.active {
+    background-color: #4b93d3;
+    color: white;
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+.upload {
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+
+.upload input[type="file"] {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.analyze-btn {
+    background-color: #4b93d3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.analyze-btn:hover {
+    background-color: #3b7bbd;
+}
+
+.result {
+    display: none;
+}
+
+.result.active {
+    display: block;
+}
+
+.result h4 {
+    font-size: 24px;
+    color: green;
+}
+
+.result p {
+    font-size: 18px;
+    color: #333;
+}
+
+/* Footer Section */
+footer {
+    background-color: #4b93d3;
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
